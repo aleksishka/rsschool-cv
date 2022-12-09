@@ -16,10 +16,31 @@
 Сейчас изучаю Front-End разработку в RSSchool!
 
 #### Code example:
+```function fizzbuzz(n)
+{
+  let ar = [];
+  for ( let i = 1; i <= n; i++) {
+    if ( (i % 3 === 0) && (i % 5 === 0)) {
+      ar.push('FizzBuzz');
+    }
+    else if ( i % 3 === 0 ) {
+      ar.push("Fizz");
+    }
+    else if ( i % 5 === 0) {
+      ar.push("Buzz");
+    }
+    else {
+      ar.push(i);
+    }
+  }
+  return ar;
+}
+```
 
 ##### Work experience:
 В вебдизайне с 2013 по 2016
 В веб маркетинге, таргете и SMM с 2018
+Front-End - Nothing yet…
 
 ###### Education and courses:
 1. Веб дизайн для новичкоа 
@@ -27,3 +48,6 @@
 3. Target FB https://www.marketing0-100.com/
 4. Front-End https://app.rs.school/
 
+####### Language:
+Deutch level - A1
+Russish level - C1
