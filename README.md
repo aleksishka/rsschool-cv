@@ -1,1 +1,1 @@
-# rsschool-cv
+https://aleksishka.github.io/rsschool-cv/cv
