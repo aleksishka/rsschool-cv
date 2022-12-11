@@ -16,17 +16,13 @@ Thanks to the accumulated experience in Design and Marketing, in 2020 I launched
 Now I'm studying Front-End development at RSSchool!
 
 ## Code example:
-`function peak(arr) {
+```function sum(a, b) {
+  return a + b;
+}
 
-  for (let i = 1; i < arr.length - 1; i++) {
-    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
-    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
-    if (leftSum === rightSum) {
-      return i;
-    }
-  }   
-  return -1;
-`
+let result = sum(1, 2);
+alert( result );
+```
 
 ## Work experience:
 In web design from 2013 to 2016
