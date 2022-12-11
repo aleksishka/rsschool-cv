@@ -28,7 +28,6 @@ Now I'm studying Front-End development at RSSchool!
   return -1;
 `
 
-
 ## Work experience:
 In web design from 2013 to 2016
 In web marketing, targeting and SMM since 2018
