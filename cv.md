@@ -16,24 +16,16 @@ Thanks to the accumulated experience in Design and Marketing, in 2020 I launched
 Now I'm studying Front-End development at RSSchool!
 
 ## Code example:
-```function fizzbuzz(n)
-{
-  let ar = [];
-  for ( let i = 1; i <= n; i++) {
-    if ( (i % 3 === 0) && (i % 5 === 0)) {
-      ar.push('FizzBuzz');
-    }
-    else if ( i % 3 === 0 ) {
-      ar.push("Fizz");
-    }
-    else if ( i % 5 === 0) {
-      ar.push("Buzz");
-    }
-    else {
-      ar.push(i);
+```function peak(arr) {
+
+  for (let i = 1; i < arr.length - 1; i++) {
+    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) => accumulator + currentValue);
+    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) => accumulator + currentValue);
+    if (leftSum === rightSum) {
+      return i;
     }
   }
-  return ar;
+  return -1;
 }
 ```
 
