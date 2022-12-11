@@ -16,7 +16,8 @@ Thanks to the accumulated experience in Design and Marketing, in 2020 I launched
 Now I'm studying Front-End development at RSSchool!
 
 ## Code example:
-```function sum(a, b) {
+```javascript
+function sum(a, b) {
   return a + b;
 }
 
